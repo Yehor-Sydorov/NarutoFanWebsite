@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./sass/main.scss" />
+    <link rel="icon" href="./assets/logo/Naruto.ico" type="image/x-icon" />
+    <title>Наруто</title>
+  </head>
+  <body id="mainContainer">
+    <div class="menu">
+      <div class="logo">
+        <a href="./index.html">
+          <img
+            src="./assets/images/Naruto_logo.svg.png"
+            alt="Logo"
+            width="225"
+            height="70"
+          />
+        </a>
+      </div>
+      <div class="menu-items-container">
+        <ul class="menuList">
+          <li class="menu-item">
+            <a href="./characters.html" class="menuItemLink">Персонажі</a>
+          </li>
+          <li class="menu-item">
+            <a href="./watch.html" class="menuItemLink">Дивитися Наруто</a>
+          </li>
+          <li class="menu-item">
+            <a href="./techniques.html" class="menuItemLink">Техніки</a>
+          </li>
+          <li class="menu-item menu-item-toggle">
+            <button id="themeToggle" onclick="toggleTheme()">
+              <img
+                src="sun.png"
+                alt="sun"
+                width="35px"
+                height="35px"
+                id="themeImage"
+              />
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="containerHeader">
+      <h1 class="headerTitle" id="mainText">Сайт про Наруто</h1>
+      <div class="containerDescription">
+        <img
+          src="./assets/images/загружено.png"
+          alt="Наруто"
+          width="300"
+          height="400"
+          class="infoImage toggleBorder"
+        />
+        <div class="containerInfo toggleBorder">
+          <h3 class="mainHeaderInfo">
+            <span class="character-name">Наруто Узумакі</span> - головний герой
+            однойменного аніме.
+          </h3>
+          <p>
+            <span class="mainInfo">
+              Наруто Узумакі — персонаж аніме та манґи Наруто, якого створив
+              Масаші Кішімото. Епонічний головний герой серії з вигаданого
+              селища Схованого Листя. Селяни зневажають Наруто, тому що у ньому
+              Дев'ятихвостий демон лис — недоброзичлива істота, що напала на
+              Сховане Листя, яке згодом було запечатано у тілі Наруто.
+              Незважаючи на це, він прагне стати лідером свого села, Хокаґе.
+              Його безтурботна, оптимістична і бурхлива особистість дозволяє
+              йому подружитися з іншими ніндзями Схованого Листя, а також ніндзя
+              з інших сел. Наруто з'являється у фільмах серіалу та в інших
+              засобах масової інформації, пов'язаних з франшизою, включаючи
+              відеоігри та OVA, а також у сиквелі Боруто: Наступне покоління
+              Наруто де його син, Боруто Узумакі, є протагоністом.
+            </span>
+          </p>
+          <a href="https://uk.wikipedia.org/wiki/Наруто" class="moreInfo"
+            >Дізнайся більше про Наруто</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="nameHeader">
+      <h2 id="mainText2">Друзі Наруто:</h2>
+    </div>
+    <ol class="nameList containerGridBig">
+      <li class="gridItem toggleBorder">
+        <div class="containerName">
+          <a href="https://uk.wikipedia.org/wiki/Учіха_Саске" class="infoLink"
+            >Саске Учіха</a
+          >
+        </div>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/uk/f/f0/Sasuke.jpeg"
+          alt="Саске Учіха"
+          class="gridImage"
+        />
+      </li>
+      <li class="gridItem toggleBorder">
+        <div class="containerName">
+          <a href="https://uk.wikipedia.org/wiki/Харуно_Сакура" class="infoLink"
+            >Сакура Харуно</a
+          >
+        </div>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/uk/0/03/Haruno_Sakura.jpg"
+          alt="Сакура Харуно"
+          class="gridImage"
+        />
+      </li>
+      <li class="gridItem toggleBorder">
+        <div class="containerName">
+          <a
+            href="https://uk.wikipedia.org/wiki/Хатаке_Какаші#:~:text=Хата́ке%20Кака́ші%20(яп.,Саске%20Учіхи%20та%20Сакури%20Харуно."
+            class="infoLink"
+            >Какаші Хатаке</a
+          >
+        </div>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/uk/b/b5/Kakashi.jpeg"
+          alt="Какаші Хатаке"
+          class="gridImage"
+        />
+      </li>
+      <li class="gridItem toggleBorder">
+        <div class="containerName">
+          <a href="./error.html" class="errorLink">Конохамару Сарутобі</a>
+        </div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRApr5c7y4I9zrvckLdRB0oliOFJbH8JfuxLw&usqp=CAU"
+          alt="Конохамару"
+          class="gridImage"
+        />
+      </li>
+    </ol>
+    <div class="nameHeader">
+      <h2 id="mainText3">Вороги Наруто:</h2>
+    </div>
+    <ul class="nameList containerGridSmall">
+      <li class="gridItem toggleBorder">
+        <div class="containerName">
+          <a
+            href="https://uk.wikipedia.org/wiki/Орочімару_(Наруто)"
+            class="infoLink"
+            >Орочімару</a
+          >
+        </div>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/uk/e/eb/Orochimaru.jpg"
+          alt="Орачімару"
+          class="gridImage"
+        />
+      </li>
+      <li class="gridItem toggleBorder">
+        <div class="containerName">
+          <a href="https://uk.wikipedia.org/wiki/Якуші_Кабуто" class="infoLink"
+            >Кабуто</a
+          >
+        </div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1j1kAEJxmTiibTxR0JTqiesgiNuw1S3ubZg&usqp=CAU"
+          alt="Кабуто"
+          class="gridImage"
+        />
+      </li>
+      <li class="gridItem toggleBorder">
+        <div class="containerName">
+          <a href="https://uk.wikipedia.org/wiki/Наґато_(Пейн)" class="infoLink"
+            >Пейн</a
+          >
+        </div>
+        <img src="./assets/images/Pain.png" alt="Пейн" class="gridImage" />
+      </li>
+    </ul>
+    <div class="containerFooter">
+      <div class="footerText">
+        <p>Права зарезервовані у 2023 році.</p>
+        <p>
+          Якщо виникнуть деякі питання, потелефонуйте мені за номером
+          (ВІДРЕДАГОВАНО)
+        </p>
+      </div>
+      <div class="footerContacts">
+        <p>Мої соціальні мережі:</p>
+        <div class="containerContacts">
+          <img
+            src="./assets/images/174855.png"
+            alt="Інстаграм"
+            width="30"
+            height="30"
+            class="contactsImage"
+          />
+          <p>(ВІДРЕДАГОВАНО)</p>
+        </div>
+        <div class="containerContacts">
+          <img
+            src="./assets/images/1486146460-pinterest_79437.png"
+            alt=""
+            width="30"
+            height="30"
+            class="contactsImage"
+          />
+          <p>(ВІДРЕДАГОВАНО)</p>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

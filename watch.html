@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./assets/logo/Naruto.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Дивитися Наруто</title>
+  </head>
+  <body id="mainContainer">
+    <div class="menu">
+      <div class="logo">
+        <a href="./index.html">
+          <img
+            src="./assets/images/Naruto_logo.svg.png"
+            alt="Logo"
+            width="225"
+            height="70"
+          />
+        </a>
+      </div>
+      <div class="menu-items-container">
+        <ul class="menuList">
+          <li class="menu-item">
+            <a href="./characters.html" class="menuItemLink">Персонажі</a>
+          </li>
+          <li class="menu-item">
+            <a href="./watch.html" class="menuItemLink">Дивитися Наруто</a>
+          </li>
+          <li class="menu-item">
+            <a href="./techniques.html" class="menuItemLink">Техніки</a>
+          </li>
+          <li class="menu-item menu-item-toggle">
+            <button id="themeToggle" onclick="toggleTheme()">
+              <img
+                src="sun.png"
+                alt="sun"
+                width="35px"
+                height="35px"
+                id="themeImage"
+              />
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="videoPlayer">
+      <video
+        src="./assets/video/Naruto_1_sezon_-_1_seriya_(anwap.org).mp4"
+        controls
+      >
+        Перша серія Наруто (Не прогрузилося :/ )
+      </video>
+    </div>
+    <div class="carusel">
+      <div class="carusel-item">
+        <p>Серія 1</p>
+        <div class="item-content">
+          <button>Дивитися</button>
+        </div>
+      </div>
+      <div class="carusel-item">
+        <p>Серія 2</p>
+        <div class="item-content">
+          <button>Дивитися</button>
+        </div>
+      </div>
+      <div class="carusel-item">
+        <p>Серія 3</p>
+        <div class="item-content">
+          <button>Дивитися</button>
+        </div>
+      </div>
+      <div class="carusel-item">
+        <p>Серія 4</p>
+        <div class="item-content">
+          <button>Дивитися</button>
+        </div>
+      </div>
+      <div class="carusel-item">
+        <p>Серія 5</p>
+        <div class="item-content">
+          <button>Дивитися</button>
+        </div>
+      </div>
+      <div class="carusel-item">
+        <p>Серія 6</p>
+        <div class="item-content">
+          <button>Дивитися</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

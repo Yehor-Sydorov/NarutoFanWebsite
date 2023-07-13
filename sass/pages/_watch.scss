@@ -1,0 +1,54 @@
+.videoPlayer{
+    width: 700px;
+    height: auto;
+    position: relative;
+    margin: 10px auto;
+}
+
+.videoPlayer > video{
+    width: 100%;
+}
+
+.carusel{
+    width: 700px;
+    height: 140px;
+    margin: 20px auto;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y:hidden;
+    &-item{
+        width: 200px;
+        height: 140px;
+        flex-shrink: 0;
+        margin-right: 10px;
+        background-image: url("/assets/images/characters.png");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        p{
+            color:#ddd;
+            font-family: 'Hind Siliguri', sans-serif;
+            font-weight: bold;
+            font-size: 25px;
+            width:100% ;
+            margin-left: 10px;
+        }
+        &:hover p{
+            display: none;
+        }
+        &:hover .item-content{
+            opacity: 1;
+        }
+        .item-content{
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+    }
+}
